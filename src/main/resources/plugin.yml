@@ -1,0 +1,8 @@
+name: PlayerReputation
+version: '${project.version}'
+main: me.wyolovescoffee.playerreputation.PlayerReputation
+api-version: 1.18
+commands:
+  addreputation:
+    description: Test adds player rep
+    usage: /<command>
