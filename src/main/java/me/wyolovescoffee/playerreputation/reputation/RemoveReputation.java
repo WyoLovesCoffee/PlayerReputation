@@ -18,6 +18,7 @@ public class RemoveReputation extends GetReputation{
 
         Integer NewReputation = CurrentReputation - ReputationToRemove;
 
+        //Later on, I'll add a check to make sure reputation doesn't go over 1000 or under 0
         PlayerReputation.put(PlayerName, NewReputation);
 
     }
